@@ -1,6 +1,6 @@
 import './App.css';
-import BoxComponent from './components/BoxComponent';
-import Table from './components/Table'
+import BoxComponent from './components/box/BoxComponent';
+import Table from './components/table/Table'
 import { useState, useEffect } from "react";
 function App() {
   const [data, setData] = useState([]);
